@@ -23,8 +23,8 @@ contract Receiver is IMessageRecipient {
     }
 
     function handle(
-        uint32 _origin,
-        bytes32 _sender,
+        uint32,
+        bytes32,
         bytes calldata _body
     ) external onlyMailbox {
         (

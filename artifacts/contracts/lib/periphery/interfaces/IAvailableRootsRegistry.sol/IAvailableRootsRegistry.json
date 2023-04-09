@@ -1,0 +1,95 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IAvailableRootsRegistry",
+  "sourceName": "contracts/lib/periphery/interfaces/IAvailableRootsRegistry.sol",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "root",
+          "type": "uint256"
+        }
+      ],
+      "name": "RegisteredRoot",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "root",
+          "type": "uint256"
+        }
+      ],
+      "name": "UnregisteredRoot",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "owner",
+          "type": "address"
+        }
+      ],
+      "name": "initialize",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "root",
+          "type": "uint256"
+        }
+      ],
+      "name": "isRootAvailable",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "root",
+          "type": "uint256"
+        }
+      ],
+      "name": "registerRoot",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "root",
+          "type": "uint256"
+        }
+      ],
+      "name": "unregisterRoot",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

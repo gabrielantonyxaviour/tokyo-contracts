@@ -1,0 +1,190 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IBaseVerifier",
+  "sourceName": "contracts/lib/interfaces/IBaseVerifier.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "bytes16",
+          "name": "appId",
+          "type": "bytes16"
+        },
+        {
+          "internalType": "bytes16",
+          "name": "namespace",
+          "type": "bytes16"
+        },
+        {
+          "components": [
+            {
+              "components": [
+                {
+                  "internalType": "bytes16",
+                  "name": "groupId",
+                  "type": "bytes16"
+                },
+                {
+                  "internalType": "bytes16",
+                  "name": "groupTimestamp",
+                  "type": "bytes16"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "enum ClaimType",
+                  "name": "claimType",
+                  "type": "uint8"
+                },
+                {
+                  "internalType": "bytes",
+                  "name": "extraData",
+                  "type": "bytes"
+                }
+              ],
+              "internalType": "struct Claim",
+              "name": "claim",
+              "type": "tuple"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "enum AuthType",
+                  "name": "authType",
+                  "type": "uint8"
+                },
+                {
+                  "internalType": "bool",
+                  "name": "anonMode",
+                  "type": "bool"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "userId",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "bytes",
+                  "name": "extraData",
+                  "type": "bytes"
+                }
+              ],
+              "internalType": "struct Auth",
+              "name": "auth",
+              "type": "tuple"
+            },
+            {
+              "internalType": "bytes",
+              "name": "signedMessage",
+              "type": "bytes"
+            },
+            {
+              "internalType": "bytes32",
+              "name": "provingScheme",
+              "type": "bytes32"
+            },
+            {
+              "internalType": "bytes",
+              "name": "proofData",
+              "type": "bytes"
+            },
+            {
+              "internalType": "bytes",
+              "name": "extraData",
+              "type": "bytes"
+            }
+          ],
+          "internalType": "struct ZkConnectProof",
+          "name": "zkConnectProof",
+          "type": "tuple"
+        }
+      ],
+      "name": "verify",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "enum AuthType",
+              "name": "authType",
+              "type": "uint8"
+            },
+            {
+              "internalType": "bool",
+              "name": "anonMode",
+              "type": "bool"
+            },
+            {
+              "internalType": "uint256",
+              "name": "userId",
+              "type": "uint256"
+            },
+            {
+              "internalType": "bytes",
+              "name": "extraData",
+              "type": "bytes"
+            },
+            {
+              "internalType": "uint256",
+              "name": "proofId",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct VerifiedAuth",
+          "name": "",
+          "type": "tuple"
+        },
+        {
+          "components": [
+            {
+              "internalType": "bytes16",
+              "name": "groupId",
+              "type": "bytes16"
+            },
+            {
+              "internalType": "bytes16",
+              "name": "groupTimestamp",
+              "type": "bytes16"
+            },
+            {
+              "internalType": "enum ClaimType",
+              "name": "claimType",
+              "type": "uint8"
+            },
+            {
+              "internalType": "uint256",
+              "name": "value",
+              "type": "uint256"
+            },
+            {
+              "internalType": "bytes",
+              "name": "extraData",
+              "type": "bytes"
+            },
+            {
+              "internalType": "uint256",
+              "name": "proofId",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct VerifiedClaim",
+          "name": "",
+          "type": "tuple"
+        },
+        {
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

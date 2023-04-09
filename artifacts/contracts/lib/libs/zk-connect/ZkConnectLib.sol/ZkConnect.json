@@ -1,0 +1,98 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "ZkConnect",
+  "sourceName": "contracts/lib/libs/zk-connect/ZkConnectLib.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "bytes16",
+          "name": "appIdentifier",
+          "type": "bytes16"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes16",
+          "name": "receivedAppId",
+          "type": "bytes16"
+        },
+        {
+          "internalType": "bytes16",
+          "name": "expectedAppId",
+          "type": "bytes16"
+        }
+      ],
+      "name": "AppIdMismatch",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes16",
+          "name": "receivedNamespace",
+          "type": "bytes16"
+        },
+        {
+          "internalType": "bytes16",
+          "name": "expectedNamespace",
+          "type": "bytes16"
+        }
+      ],
+      "name": "NamespaceMismatch",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "ZkConnectResponseIsEmpty",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "ADDRESSES_PROVIDER",
+      "outputs": [
+        {
+          "internalType": "contract IAddressesProvider",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "ZK_CONNECT_LIB_VERSION",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "appId",
+      "outputs": [
+        {
+          "internalType": "bytes16",
+          "name": "",
+          "type": "bytes16"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b506040516102b93803806102b983398101604081905261002f91610114565b600180546001600160801b031916608083901c179055604080518082018252601481527f7a6b436f6e6e65637456657269666965722d76320000000000000000000000006020820152905163349f642f60e11b8152733340ac0cafb3ae34ddd53dba0d7344c1cf3efe059163693ec85e916100ad9190600401610145565b602060405180830381865afa1580156100ca573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906100ee9190610193565b600080546001600160a01b0319166001600160a01b0392909216919091179055506101bc565b60006020828403121561012657600080fd5b81516001600160801b03198116811461013e57600080fd5b9392505050565b600060208083528351808285015260005b8181101561017257858101830151858201604001528201610156565b506000604082860101526040601f19601f8301168501019250505092915050565b6000602082840312156101a557600080fd5b81516001600160a01b038116811461013e57600080fd5b60ef806101ca6000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c80630542975c14604157806380afdea814607857806386e01f781460a5575b600080fd5b605b733340ac0cafb3ae34ddd53dba0d7344c1cf3efe0581565b6040516001600160a01b0390911681526020015b60405180910390f35b60015460849060801b81565b6040516fffffffffffffffffffffffffffffffff199091168152602001606f565b60ac600281565b604051908152602001606f56fea2646970667358221220b9950a8fdba6d39d45024896ae9dbb75c835e2c0cc9efc3f13a0eb243012d4a564736f6c63430008110033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b5060043610603c5760003560e01c80630542975c14604157806380afdea814607857806386e01f781460a5575b600080fd5b605b733340ac0cafb3ae34ddd53dba0d7344c1cf3efe0581565b6040516001600160a01b0390911681526020015b60405180910390f35b60015460849060801b81565b6040516fffffffffffffffffffffffffffffffff199091168152602001606f565b60ac600281565b604051908152602001606f56fea2646970667358221220b9950a8fdba6d39d45024896ae9dbb75c835e2c0cc9efc3f13a0eb243012d4a564736f6c63430008110033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

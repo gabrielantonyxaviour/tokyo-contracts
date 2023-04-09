@@ -6,7 +6,7 @@
       "contentHash": "c9b29c8a1e2bdb44bef0cc586756fdb9",
       "sourceName": "contracts/ERC721Promotion.sol",
       "solcConfig": {
-        "version": "0.8.14",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -54,7 +54,7 @@
       "contentHash": "dafd372987e7a9befec978e7c2e5c147",
       "sourceName": "contracts/interfaces/IMessageRecipient.sol",
       "solcConfig": {
-        "version": "0.8.14",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -96,7 +96,7 @@
       "contentHash": "74654e3ae5d7f39555055dfe244dab7a",
       "sourceName": "@openzeppelin/contracts/utils/Counters.sol",
       "solcConfig": {
-        "version": "0.8.14",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -138,7 +138,7 @@
       "contentHash": "e436cea06129be2c73cda4b1acc848b5",
       "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
       "solcConfig": {
-        "version": "0.8.14",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -182,7 +182,7 @@
       "contentHash": "f7f4f78c31f28534852e5c56000a25af",
       "sourceName": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
       "solcConfig": {
-        "version": "0.8.14",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -232,7 +232,7 @@
       "contentHash": "8af32effd0536e2971ff8496812a5016",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
       "solcConfig": {
-        "version": "0.8.14",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -276,7 +276,7 @@
       "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
       "solcConfig": {
-        "version": "0.8.14",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -318,7 +318,7 @@
       "contentHash": "f31ad6fc4bbf9c06203987220156a6ba",
       "sourceName": "@openzeppelin/contracts/utils/Address.sol",
       "solcConfig": {
-        "version": "0.8.14",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -360,7 +360,7 @@
       "contentHash": "396031251978f8febfd90cb62cb240ec",
       "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
       "solcConfig": {
-        "version": "0.8.14",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -404,7 +404,7 @@
       "contentHash": "0e7db055ce108f9da7bb6686a00287c0",
       "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
       "solcConfig": {
-        "version": "0.8.14",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -448,7 +448,7 @@
       "contentHash": "eb7e61db29f31d88b3c1cef1b063d338",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
       "solcConfig": {
-        "version": "0.8.14",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -492,7 +492,7 @@
       "contentHash": "c22d4395e33763de693fd440c6fd10e1",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
       "solcConfig": {
-        "version": "0.8.14",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -534,7 +534,7 @@
       "contentHash": "efbc0d15b80a74e34dbe8da0f3e879bb",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
       "solcConfig": {
-        "version": "0.8.14",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -578,7 +578,7 @@
       "contentHash": "b9c58920ce74d6dc819161786112e7ee",
       "sourceName": "@openzeppelin/contracts/utils/math/Math.sol",
       "solcConfig": {
-        "version": "0.8.14",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -620,7 +620,7 @@
       "contentHash": "03e6768535ac4da0e9756f1d8a4a018a",
       "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
       "solcConfig": {
-        "version": "0.8.14",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -662,7 +662,7 @@
       "contentHash": "0cf6e90d6c2de26c34a047a0ca279175",
       "sourceName": "contracts/Receiver.sol",
       "solcConfig": {
-        "version": "0.8.14",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -707,7 +707,7 @@
       "contentHash": "f476a75e6c2cae354a4101ed8529b2f2",
       "sourceName": "contracts/PromotionMain.sol",
       "solcConfig": {
-        "version": "0.8.14",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -758,7 +758,7 @@
       "contentHash": "8fa52210a63737f72762247e18e1a7b6",
       "sourceName": "contracts/interfaces/IInterchainQueryRouter.sol",
       "solcConfig": {
-        "version": "0.8.14",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -798,7 +798,7 @@
       "contentHash": "d6b7b2b9aa1871d3124e4a74160626c5",
       "sourceName": "contracts/interfaces/IMailbox.sol",
       "solcConfig": {
-        "version": "0.8.14",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -840,7 +840,7 @@
       "contentHash": "f1aa4c0fc0e2c5b513b05912f25acffc",
       "sourceName": "contracts/interfaces/IInterchainGasPaymaster.sol",
       "solcConfig": {
-        "version": "0.8.14",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -882,7 +882,7 @@
       "contentHash": "116b1b60c620966612bda7363acfb844",
       "sourceName": "contracts/interfaces/IReceiver.sol",
       "solcConfig": {
-        "version": "0.8.14",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -922,7 +922,7 @@
       "contentHash": "a8e2d1c30042f64ed89c9d4157eb6cb9",
       "sourceName": "@openzeppelin/contracts/security/ReentrancyGuard.sol",
       "solcConfig": {
-        "version": "0.8.14",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -964,7 +964,7 @@
       "contentHash": "fe1190dbb6431c2464246925713f0f7f",
       "sourceName": "@openzeppelin/contracts/utils/cryptography/ECDSA.sol",
       "solcConfig": {
-        "version": "0.8.14",
+        "version": "0.8.17",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -1002,6 +1002,802 @@
       "artifacts": [
         "ECDSA"
       ]
+    },
+    "E:\\projects\\Tokyo\\contracts\\contracts\\PromotionMainWithSismo.sol": {
+      "lastModificationDate": 1681044862839,
+      "contentHash": "ba5c9f9ca7f0c238917fcfa5ad763bb8",
+      "sourceName": "contracts/PromotionMainWithSismo.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@openzeppelin/contracts/security/ReentrancyGuard.sol",
+        "@openzeppelin/contracts/utils/cryptography/ECDSA.sol",
+        "./lib/libs/zk-connect/ZkConnectLib.sol",
+        "./interfaces/IInterchainQueryRouter.sol",
+        "./interfaces/IMailbox.sol",
+        "./interfaces/IInterchainGasPaymaster.sol",
+        "./interfaces/IReceiver.sol",
+        "./ERC721Promotion.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.14"
+      ],
+      "artifacts": [
+        "PromotionMain"
+      ]
+    },
+    "E:\\projects\\Tokyo\\contracts\\contracts\\lib\\libs\\zk-connect\\ZkConnectLib.sol": {
+      "lastModificationDate": 1680969366302,
+      "contentHash": "9e7168b2ae1247493bac2cafbede2e82",
+      "sourceName": "contracts/lib/libs/zk-connect/ZkConnectLib.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../utils/Structs.sol",
+        "../utils/RequestBuilder.sol",
+        "@openzeppelin/contracts/utils/Context.sol",
+        "./IZkConnectLib.sol",
+        "../../interfaces/IZkConnectVerifier.sol",
+        "../../periphery/interfaces/IAddressesProvider.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.14"
+      ],
+      "artifacts": [
+        "ZkConnect"
+      ]
+    },
+    "E:\\projects\\Tokyo\\contracts\\contracts\\lib\\libs\\utils\\Structs.sol": {
+      "lastModificationDate": 1680969169822,
+      "contentHash": "207b15fc0e355d898b2330870ae378f3",
+      "sourceName": "contracts/lib/libs/utils/Structs.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": []
+    },
+    "E:\\projects\\Tokyo\\contracts\\contracts\\lib\\libs\\utils\\RequestBuilder.sol": {
+      "lastModificationDate": 1680969600535,
+      "contentHash": "96c8e624c5c5df94c5422638ff2828d6",
+      "sourceName": "contracts/lib/libs/utils/RequestBuilder.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./Structs.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "RequestBuilder"
+      ]
+    },
+    "E:\\projects\\Tokyo\\contracts\\contracts\\lib\\interfaces\\IZkConnectVerifier.sol": {
+      "lastModificationDate": 1680969567640,
+      "contentHash": "576348f2c69a73423ab69443a7ed1e05",
+      "sourceName": "contracts/lib/interfaces/IZkConnectVerifier.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../libs/utils/Structs.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "IZkConnectVerifier"
+      ]
+    },
+    "E:\\projects\\Tokyo\\contracts\\contracts\\lib\\periphery\\interfaces\\IAddressesProvider.sol": {
+      "lastModificationDate": 1680969282293,
+      "contentHash": "5348045c377e1f95539c66f6e39c61e0",
+      "sourceName": "contracts/lib/periphery/interfaces/IAddressesProvider.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.14"
+      ],
+      "artifacts": [
+        "IAddressesProvider"
+      ]
+    },
+    "E:\\projects\\Tokyo\\contracts\\contracts\\lib\\libs\\zk-connect\\IZkConnectLib.sol": {
+      "lastModificationDate": 1680969099506,
+      "contentHash": "7813ab2e758bd048f4fabcde10d3a954",
+      "sourceName": "contracts/lib/libs/zk-connect/IZkConnectLib.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": [
+        "IZkConnectLib"
+      ]
+    },
+    "E:\\projects\\Tokyo\\contracts\\node_modules\\@openzeppelin\\contracts\\proxy\\utils\\Initializable.sol": {
+      "lastModificationDate": 1679597481662,
+      "contentHash": "19c4fbc3e825d25231b09f13aff9a2b2",
+      "sourceName": "@openzeppelin/contracts/proxy/utils/Initializable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.2"
+      ],
+      "artifacts": [
+        "Initializable"
+      ]
+    },
+    "E:\\projects\\Tokyo\\contracts\\contracts\\lib\\verifiers\\HydraS2Verifier.sol": {
+      "lastModificationDate": 1680969824723,
+      "contentHash": "a3e1c9d8781c777e381af1d809374ae0",
+      "sourceName": "contracts/lib/verifiers/HydraS2Verifier.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IBaseVerifier.sol",
+        "@sismo-core/hydra-s2/contracts/HydraS2Verifier.sol",
+        "../periphery/interfaces/ICommitmentMapperRegistry.sol",
+        "../periphery/interfaces/IAvailableRootsRegistry.sol",
+        "@openzeppelin/contracts/proxy/utils/Initializable.sol",
+        "./HydraS2Lib.sol",
+        "./IHydraS2Verifier.sol",
+        "../libs/utils/Structs.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "HydraS2Verifier"
+      ]
+    },
+    "E:\\projects\\Tokyo\\contracts\\contracts\\lib\\interfaces\\IBaseVerifier.sol": {
+      "lastModificationDate": 1680969107715,
+      "contentHash": "d5668be77c17ba4e0a14ce70597c8af6",
+      "sourceName": "contracts/lib/interfaces/IBaseVerifier.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../libs/utils/Structs.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "IBaseVerifier"
+      ]
+    },
+    "E:\\projects\\Tokyo\\contracts\\contracts\\lib\\periphery\\interfaces\\ICommitmentMapperRegistry.sol": {
+      "lastModificationDate": 1680969310328,
+      "contentHash": "95eb0bd9b938b05e621cc800a93dded4",
+      "sourceName": "contracts/lib/periphery/interfaces/ICommitmentMapperRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.14"
+      ],
+      "artifacts": [
+        "ICommitmentMapperRegistry"
+      ]
+    },
+    "E:\\projects\\Tokyo\\contracts\\contracts\\lib\\periphery\\interfaces\\IAvailableRootsRegistry.sol": {
+      "lastModificationDate": 1680969296763,
+      "contentHash": "33a01ba137ec634c269de850463209cc",
+      "sourceName": "contracts/lib/periphery/interfaces/IAvailableRootsRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.14"
+      ],
+      "artifacts": [
+        "IAvailableRootsRegistry"
+      ]
+    },
+    "E:\\projects\\Tokyo\\contracts\\contracts\\lib\\verifiers\\HydraS2Lib.sol": {
+      "lastModificationDate": 1680969408269,
+      "contentHash": "d296b09473a6c1a83ece81f9199f5501",
+      "sourceName": "contracts/lib/verifiers/HydraS2Lib.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "HydraS2Lib"
+      ]
+    },
+    "E:\\projects\\Tokyo\\contracts\\contracts\\lib\\verifiers\\IHydraS2Verifier.sol": {
+      "lastModificationDate": 1680969522322,
+      "contentHash": "f141cf75b87f75ed14caf58a5ab2b51d",
+      "sourceName": "contracts/lib/verifiers/IHydraS2Verifier.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "IHydraS2Verifier"
+      ]
+    },
+    "E:\\projects\\Tokyo\\contracts\\node_modules\\@sismo-core\\hydra-s2\\contracts\\HydraS2Verifier.sol": {
+      "lastModificationDate": 1680969466139,
+      "contentHash": "a8d0d92cd7d039c48813d1d88ba2d40d",
+      "sourceName": "@sismo-core/hydra-s2/contracts/HydraS2Verifier.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "HydraS2Verifier",
+        "Pairing"
+      ]
+    },
+    "E:\\projects\\Tokyo\\contracts\\contracts\\lib\\periphery\\CommitmentMapperRegistry.sol": {
+      "lastModificationDate": 1680969341896,
+      "contentHash": "4bc9a0e19e1994aafb315c44467d095f",
+      "sourceName": "contracts/lib/periphery/CommitmentMapperRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@openzeppelin/contracts/proxy/utils/Initializable.sol",
+        "./interfaces/ICommitmentMapperRegistry.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.14"
+      ],
+      "artifacts": [
+        "CommitmentMapperRegistry"
+      ]
+    },
+    "E:\\projects\\Tokyo\\contracts\\contracts\\lib\\periphery\\AvailableRootsRegistry.sol": {
+      "lastModificationDate": 1680969329451,
+      "contentHash": "fc4405e399a2c3accb6ccbbeb97124d3",
+      "sourceName": "contracts/lib/periphery/AvailableRootsRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "./interfaces/IAvailableRootsRegistry.sol",
+        "@openzeppelin/contracts/proxy/utils/Initializable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.14"
+      ],
+      "artifacts": [
+        "AvailableRootsRegistry"
+      ]
+    },
+    "E:\\projects\\Tokyo\\contracts\\contracts\\lib\\libs\\SismoLib.sol": {
+      "lastModificationDate": 1680969071119,
+      "contentHash": "2be1e1ee5abf1a3943884051e5f56861",
+      "sourceName": "contracts/lib/libs/SismoLib.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./zk-connect/ZkConnectLib.sol",
+        "./utils/Structs.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.14"
+      ],
+      "artifacts": []
     }
   }
 }

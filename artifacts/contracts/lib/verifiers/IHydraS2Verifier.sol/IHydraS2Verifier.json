@@ -1,0 +1,180 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IHydraS2Verifier",
+  "sourceName": "contracts/lib/verifiers/IHydraS2Verifier.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "accountsTreeValueFromProof",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "expectedAccountsTreeValue",
+          "type": "uint256"
+        }
+      ],
+      "name": "AccountsTreeValueMismatch",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "AnonModeIsNotYetSupported",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "claimTypeFromProof",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "expectedClaimType",
+          "type": "uint256"
+        }
+      ],
+      "name": "ClaimTypeMismatch",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "ClaimValueMismatch",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "expectedX",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "expectedY",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "inputX",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "inputY",
+          "type": "uint256"
+        }
+      ],
+      "name": "CommitmentMapperPubKeyMismatch",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "destinationFromProof",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "expectedDestination",
+          "type": "address"
+        }
+      ],
+      "name": "DestinationMismatch",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "DestinationVerificationNotEnabled",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "extraDataFromProof",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "expectedExtraData",
+          "type": "bytes32"
+        }
+      ],
+      "name": "InvalidExtraData",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "InvalidProof",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "version",
+          "type": "bytes32"
+        }
+      ],
+      "name": "InvalidVersion",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "inputRoot",
+          "type": "uint256"
+        }
+      ],
+      "name": "RegistryRootNotAvailable",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "requestIdentifierFromProof",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "expectedRequestIdentifier",
+          "type": "uint256"
+        }
+      ],
+      "name": "RequestIdentifierMismatch",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "SourceVerificationNotEnabled",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes16",
+          "name": "appIdFromProof",
+          "type": "bytes16"
+        },
+        {
+          "internalType": "bytes16",
+          "name": "expectedAppId",
+          "type": "bytes16"
+        }
+      ],
+      "name": "VaultNamespaceMismatch",
+      "type": "error"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

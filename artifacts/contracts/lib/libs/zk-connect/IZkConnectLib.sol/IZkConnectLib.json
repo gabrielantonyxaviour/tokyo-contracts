@@ -1,0 +1,48 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IZkConnectLib",
+  "sourceName": "contracts/lib/libs/zk-connect/IZkConnectLib.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "bytes16",
+          "name": "receivedAppId",
+          "type": "bytes16"
+        },
+        {
+          "internalType": "bytes16",
+          "name": "expectedAppId",
+          "type": "bytes16"
+        }
+      ],
+      "name": "AppIdMismatch",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes16",
+          "name": "receivedNamespace",
+          "type": "bytes16"
+        },
+        {
+          "internalType": "bytes16",
+          "name": "expectedNamespace",
+          "type": "bytes16"
+        }
+      ],
+      "name": "NamespaceMismatch",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "ZkConnectResponseIsEmpty",
+      "type": "error"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

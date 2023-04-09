@@ -1,0 +1,564 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IZkConnectVerifier",
+  "sourceName": "contracts/lib/interfaces/IZkConnectVerifier.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "bytes16",
+          "name": "requestAppId",
+          "type": "bytes16"
+        },
+        {
+          "internalType": "bytes16",
+          "name": "responseAppId",
+          "type": "bytes16"
+        }
+      ],
+      "name": "AppIdMismatch",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bool",
+          "name": "requestAnonMode",
+          "type": "bool"
+        },
+        {
+          "internalType": "bool",
+          "name": "responseAnonMode",
+          "type": "bool"
+        }
+      ],
+      "name": "AuthAnonModeMismatch",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes",
+          "name": "requestExtraData",
+          "type": "bytes"
+        },
+        {
+          "internalType": "bytes",
+          "name": "responseExtraData",
+          "type": "bytes"
+        }
+      ],
+      "name": "AuthExtraDataMismatch",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "enum AuthType",
+          "name": "requestAuthType",
+          "type": "uint8"
+        },
+        {
+          "internalType": "enum AuthType",
+          "name": "responseAuthType",
+          "type": "uint8"
+        }
+      ],
+      "name": "AuthTypeMismatch",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "requestUserId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "responseUserId",
+          "type": "uint256"
+        }
+      ],
+      "name": "AuthUserIdMismatch",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes",
+          "name": "requestExtraData",
+          "type": "bytes"
+        },
+        {
+          "internalType": "bytes",
+          "name": "responseExtraData",
+          "type": "bytes"
+        }
+      ],
+      "name": "ClaimExtraDataMismatch",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes16",
+          "name": "requestGroupId",
+          "type": "bytes16"
+        },
+        {
+          "internalType": "bytes16",
+          "name": "responseGroupId",
+          "type": "bytes16"
+        }
+      ],
+      "name": "ClaimGroupIdMismatch",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes16",
+          "name": "requestGroupTimestamp",
+          "type": "bytes16"
+        },
+        {
+          "internalType": "bytes16",
+          "name": "responseGroupTimestamp",
+          "type": "bytes16"
+        }
+      ],
+      "name": "ClaimGroupTimestampMismatch",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "enum ClaimType",
+          "name": "requestClaimType",
+          "type": "uint8"
+        },
+        {
+          "internalType": "enum ClaimType",
+          "name": "responseClaimType",
+          "type": "uint8"
+        }
+      ],
+      "name": "ClaimTypeMismatch",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "requestClaimValue",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "responseClaimValue",
+          "type": "uint256"
+        }
+      ],
+      "name": "ClaimValueMismatch",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes",
+          "name": "requestMessageSignature",
+          "type": "bytes"
+        },
+        {
+          "internalType": "bytes",
+          "name": "responseMessageSignature",
+          "type": "bytes"
+        }
+      ],
+      "name": "MessageSignatureMismatch",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes16",
+          "name": "requestNamespace",
+          "type": "bytes16"
+        },
+        {
+          "internalType": "bytes16",
+          "name": "responseNamespace",
+          "type": "bytes16"
+        }
+      ],
+      "name": "NamespaceMismatch",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "requestVersion",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "responseVersion",
+          "type": "bytes32"
+        }
+      ],
+      "name": "VersionMismatch",
+      "type": "error"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "VerifierSet",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "ZK_CONNECT_VERSION",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "bytes16",
+              "name": "appId",
+              "type": "bytes16"
+            },
+            {
+              "internalType": "bytes16",
+              "name": "namespace",
+              "type": "bytes16"
+            },
+            {
+              "internalType": "bytes32",
+              "name": "version",
+              "type": "bytes32"
+            },
+            {
+              "components": [
+                {
+                  "components": [
+                    {
+                      "internalType": "bytes16",
+                      "name": "groupId",
+                      "type": "bytes16"
+                    },
+                    {
+                      "internalType": "bytes16",
+                      "name": "groupTimestamp",
+                      "type": "bytes16"
+                    },
+                    {
+                      "internalType": "uint256",
+                      "name": "value",
+                      "type": "uint256"
+                    },
+                    {
+                      "internalType": "enum ClaimType",
+                      "name": "claimType",
+                      "type": "uint8"
+                    },
+                    {
+                      "internalType": "bytes",
+                      "name": "extraData",
+                      "type": "bytes"
+                    }
+                  ],
+                  "internalType": "struct Claim",
+                  "name": "claim",
+                  "type": "tuple"
+                },
+                {
+                  "components": [
+                    {
+                      "internalType": "enum AuthType",
+                      "name": "authType",
+                      "type": "uint8"
+                    },
+                    {
+                      "internalType": "bool",
+                      "name": "anonMode",
+                      "type": "bool"
+                    },
+                    {
+                      "internalType": "uint256",
+                      "name": "userId",
+                      "type": "uint256"
+                    },
+                    {
+                      "internalType": "bytes",
+                      "name": "extraData",
+                      "type": "bytes"
+                    }
+                  ],
+                  "internalType": "struct Auth",
+                  "name": "auth",
+                  "type": "tuple"
+                },
+                {
+                  "internalType": "bytes",
+                  "name": "signedMessage",
+                  "type": "bytes"
+                },
+                {
+                  "internalType": "bytes32",
+                  "name": "provingScheme",
+                  "type": "bytes32"
+                },
+                {
+                  "internalType": "bytes",
+                  "name": "proofData",
+                  "type": "bytes"
+                },
+                {
+                  "internalType": "bytes",
+                  "name": "extraData",
+                  "type": "bytes"
+                }
+              ],
+              "internalType": "struct ZkConnectProof[]",
+              "name": "proofs",
+              "type": "tuple[]"
+            }
+          ],
+          "internalType": "struct ZkConnectResponse",
+          "name": "zkConnectResponse",
+          "type": "tuple"
+        },
+        {
+          "components": [
+            {
+              "internalType": "bytes16",
+              "name": "appId",
+              "type": "bytes16"
+            },
+            {
+              "internalType": "bytes16",
+              "name": "namespace",
+              "type": "bytes16"
+            },
+            {
+              "components": [
+                {
+                  "components": [
+                    {
+                      "components": [
+                        {
+                          "internalType": "enum AuthType",
+                          "name": "authType",
+                          "type": "uint8"
+                        },
+                        {
+                          "internalType": "bool",
+                          "name": "anonMode",
+                          "type": "bool"
+                        },
+                        {
+                          "internalType": "uint256",
+                          "name": "userId",
+                          "type": "uint256"
+                        },
+                        {
+                          "internalType": "bytes",
+                          "name": "extraData",
+                          "type": "bytes"
+                        }
+                      ],
+                      "internalType": "struct Auth",
+                      "name": "authRequest",
+                      "type": "tuple"
+                    },
+                    {
+                      "components": [
+                        {
+                          "internalType": "bytes16",
+                          "name": "groupId",
+                          "type": "bytes16"
+                        },
+                        {
+                          "internalType": "bytes16",
+                          "name": "groupTimestamp",
+                          "type": "bytes16"
+                        },
+                        {
+                          "internalType": "uint256",
+                          "name": "value",
+                          "type": "uint256"
+                        },
+                        {
+                          "internalType": "enum ClaimType",
+                          "name": "claimType",
+                          "type": "uint8"
+                        },
+                        {
+                          "internalType": "bytes",
+                          "name": "extraData",
+                          "type": "bytes"
+                        }
+                      ],
+                      "internalType": "struct Claim",
+                      "name": "claimRequest",
+                      "type": "tuple"
+                    },
+                    {
+                      "internalType": "bytes",
+                      "name": "messageSignatureRequest",
+                      "type": "bytes"
+                    }
+                  ],
+                  "internalType": "struct DataRequest[]",
+                  "name": "dataRequests",
+                  "type": "tuple[]"
+                },
+                {
+                  "internalType": "enum LogicalOperator[]",
+                  "name": "operators",
+                  "type": "uint8[]"
+                }
+              ],
+              "internalType": "struct ZkConnectRequestContent",
+              "name": "content",
+              "type": "tuple"
+            }
+          ],
+          "internalType": "struct ZkConnectRequest",
+          "name": "zkConnectRequest",
+          "type": "tuple"
+        }
+      ],
+      "name": "verify",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "bytes16",
+              "name": "appId",
+              "type": "bytes16"
+            },
+            {
+              "internalType": "bytes16",
+              "name": "namespace",
+              "type": "bytes16"
+            },
+            {
+              "internalType": "bytes32",
+              "name": "version",
+              "type": "bytes32"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "enum AuthType",
+                  "name": "authType",
+                  "type": "uint8"
+                },
+                {
+                  "internalType": "bool",
+                  "name": "anonMode",
+                  "type": "bool"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "userId",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "bytes",
+                  "name": "extraData",
+                  "type": "bytes"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "proofId",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct VerifiedAuth[]",
+              "name": "verifiedAuths",
+              "type": "tuple[]"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "bytes16",
+                  "name": "groupId",
+                  "type": "bytes16"
+                },
+                {
+                  "internalType": "bytes16",
+                  "name": "groupTimestamp",
+                  "type": "bytes16"
+                },
+                {
+                  "internalType": "enum ClaimType",
+                  "name": "claimType",
+                  "type": "uint8"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "bytes",
+                  "name": "extraData",
+                  "type": "bytes"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "proofId",
+                  "type": "uint256"
+                }
+              ],
+              "internalType": "struct VerifiedClaim[]",
+              "name": "verifiedClaims",
+              "type": "tuple[]"
+            },
+            {
+              "internalType": "bytes[]",
+              "name": "signedMessages",
+              "type": "bytes[]"
+            }
+          ],
+          "internalType": "struct ZkConnectVerifiedResult",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
