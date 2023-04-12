@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "E:\\projects\\Tokyo\\contracts\\contracts\\ERC721Promotion.sol": {
-      "lastModificationDate": 1680856803781,
-      "contentHash": "c9b29c8a1e2bdb44bef0cc586756fdb9",
+      "lastModificationDate": 1681321298288,
+      "contentHash": "fc5cf458dec305b163af2ab8f98a2368",
       "sourceName": "contracts/ERC721Promotion.sol",
       "solcConfig": {
         "version": "0.8.17",
@@ -658,8 +658,8 @@
       ]
     },
     "E:\\projects\\Tokyo\\contracts\\contracts\\Receiver.sol": {
-      "lastModificationDate": 1680856891412,
-      "contentHash": "0cf6e90d6c2de26c34a047a0ca279175",
+      "lastModificationDate": 1681321387704,
+      "contentHash": "e349fe1d72d45929883c1dfd46c3ea8f",
       "sourceName": "contracts/Receiver.sol",
       "solcConfig": {
         "version": "0.8.17",
@@ -1004,8 +1004,8 @@
       ]
     },
     "E:\\projects\\Tokyo\\contracts\\contracts\\PromotionMainWithSismo.sol": {
-      "lastModificationDate": 1681044862839,
-      "contentHash": "ba5c9f9ca7f0c238917fcfa5ad763bb8",
+      "lastModificationDate": 1681321351941,
+      "contentHash": "52c399cb7c7ce11f17544e61633a211d",
       "sourceName": "contracts/PromotionMainWithSismo.sol",
       "solcConfig": {
         "version": "0.8.17",
@@ -1041,6 +1041,10 @@
         "@openzeppelin/contracts/access/Ownable.sol",
         "@openzeppelin/contracts/security/ReentrancyGuard.sol",
         "@openzeppelin/contracts/utils/cryptography/ECDSA.sol",
+        "@openzeppelin/contracts/utils/introspection/ERC165Checker.sol",
+        "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+        "@openzeppelin/contracts/token/ERC1155/IERC1155.sol",
+        "@openzeppelin/contracts/token/ERC721/IERC721.sol",
         "./lib/libs/zk-connect/ZkConnectLib.sol",
         "./interfaces/IInterchainQueryRouter.sol",
         "./interfaces/IMailbox.sol",
@@ -1052,6 +1056,7 @@
         "^0.8.14"
       ],
       "artifacts": [
+        "IPromotion",
         "PromotionMain"
       ]
     },
@@ -1798,6 +1803,94 @@
         "^0.8.14"
       ],
       "artifacts": []
+    },
+    "E:\\projects\\Tokyo\\contracts\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\ERC165Checker.sol": {
+      "lastModificationDate": 1679597481556,
+      "contentHash": "27961a3f238c401f1b372fa6955a4c62",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165Checker.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC165Checker"
+      ]
+    },
+    "E:\\projects\\Tokyo\\contracts\\node_modules\\@openzeppelin\\contracts\\token\\ERC1155\\IERC1155.sol": {
+      "lastModificationDate": 1679597481617,
+      "contentHash": "d5a8f6e07ca38ec384856cfe9f08a867",
+      "sourceName": "@openzeppelin/contracts/token/ERC1155/IERC1155.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../../utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC1155"
+      ]
     }
   }
 }
