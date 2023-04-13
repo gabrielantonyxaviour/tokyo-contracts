@@ -8,6 +8,7 @@ import "@openzeppelin/contracts/utils/introspection/ERC165Checker.sol";
 import "@openzeppelin/contracts/utils/introspection/IERC165.sol";
 import "@openzeppelin/contracts/token/ERC1155/IERC1155.sol";
 import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "./lib/libs/zk-connect/ZkConnectLib.sol";
 import "./interfaces/IInterchainQueryRouter.sol";
 import "./interfaces/IMailbox.sol";
@@ -69,9 +70,9 @@ contract PromotionMain is IPromotion, Ownable, ReentrancyGuard, ZkConnect {
     bytes4 public constant IID_IERC721 = type(IERC721).interfaceId;
 
     mapping(bytes32 => Promotion) public promotions; // Promotion Id => Promotion
-    mapping(bytes32 => mapping(address => PromotionClaim)) public claims;
+    mapping(bytes32 => mapping(address => PromotionClaim)) public claims; // Promotion Id => Claimer => Claim
 
-    mapping(uint32 => Receiver) public chains;
+    mapping(uint32 => Receiver) public chains; // Destination Chain to Receiver Data
 
     IMailbox public constant mailbox =
         IMailbox(0xCC737a94FecaeC165AbCf12dED095BB13F037685);
@@ -110,6 +111,10 @@ contract PromotionMain is IPromotion, Ownable, ReentrancyGuard, ZkConnect {
     );
     event GasTankFilled(bytes32 _promotionId, uint gasEthLeft);
 
+    // ERC 20 - Token Count balanceOf(address)=>(uint)
+    // ERC721 - Token Count balanceOf(address)=>(uint), Specific Token Ownership ownerOf(uint)=>address
+    // ERC1155 - Specific Token Count balanceOf(address,uint)=>(uint)
+
     function _claimPreCheck(
         Promotion memory _promotion,
         PromotionClaim memory _claim
@@ -143,6 +148,7 @@ contract PromotionMain is IPromotion, Ownable, ReentrancyGuard, ZkConnect {
         string memory badgeURI,
         string calldata functionSignature,
         uint relayerGas,
+        uint promotionAction,
         uint _salt
     ) public payable {
         require(chains[destinationDomain].isExists, "Invalid Destination");
